@@ -1,3 +1,32 @@
+.link {
+    display: inline-block;
+    width: max-content;
+    padding: 8px 16px;
+    background-color: var(--p1);
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background-color: var(--p1);
+    margin-top: 8px;
+    position: absolute;
+}
+
+.link:hover {
+    transition: .3s;
+    background-color: var(--p2);
+}
+
+.link:hover::after {
+    background-color: var(--p2);
+    transition: .3s;
+    width: 120px;
+}
+
 .container {
     box-sizing: border-box;
     width: 1200px;

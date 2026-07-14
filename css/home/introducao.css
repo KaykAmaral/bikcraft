@@ -12,7 +12,21 @@
 
 .introducao-conteudo {
     align-self: flex-end;
-    padding-bottom: 200px; /*Antes era 80px e estou compensando os 120px do box-shadow (o efeito de vazamento da imagem do grid)*/
+    padding-bottom: 250px; /*Antes era 80px e estou compensando os 120px do box-shadow (o efeito de vazamento da imagem do grid)*/
+}
+
+.introducao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
