@@ -1,0 +1,58 @@
+.font-xs {
+    font: 400 0.75rem/1.35 Arial, sans-serif;
+}
+
+.font-s {
+    font: 400 1rem/1.5 Arial, sans-serif;
+}
+
+.font-m {
+    font: 400 1.125rem/1.35 Arial, sans-serif;
+}
+
+.font-m-b {
+    font: 600 1.125rem/1.35 Arial, sans-serif;
+}
+
+.font-l {
+    font: 400 1.5rem/1.5 Arial, sans-serif;
+}
+
+.font-l-b {
+    font: 500 1.125rem/1.35 Arial, sans-serif;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+.font-xl {
+    font: 600 2rem/1.25 Arial, sans-serif;
+}
+
+.font-xxl {
+    font: 600 4rem/1.125 Arial, sans-serif;
+}
+
+@media (max-width: 1200px) {
+ 
+    .font-xxl {
+        font-size: 3rem;
+    }
+
+    .font-l,
+    .font-l-b {
+        font-size: 1.125rem;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    
+    .font-xxl {
+        font-size: 2rem;
+    }
+
+    .font-xl {
+        font-size: 1.5rem;
+    }
+
+}
