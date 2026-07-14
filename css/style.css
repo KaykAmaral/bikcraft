@@ -6,6 +6,9 @@
 /* HOME */
 @import "./home/introducao.css";
 
+/* BICICLETAS */
+@import "./bicicletas/bicicletas-lista.css";
+
 /* UTILIDADES */
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
