@@ -35,3 +35,28 @@
     /*o 'n + 5' significa 'a partir do 5° item'*/
     border-top: 2px solid var(--c3);
 }
+
+@media (max-width: 800px) {
+
+    .parceiros {
+        padding-bottom: 60px;
+    }
+
+    .parceiros h2 {
+        margin-bottom: 20px;
+    }
+
+    .parceiros ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parceiros li:nth-child(n + 3) {
+        border-top: 2px solid var(--c3);
+    }
+
+    .parceiros li:nth-child(3),
+    .parceiros li:nth-child(7) {
+        border-left: none;
+    }
+
+}
