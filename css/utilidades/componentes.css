@@ -46,6 +46,7 @@
     font-size: 18px;
     line-height: 1.33;
     font-weight: bold;
+    max-width: max-content;
 }
 
 .botao:hover {
