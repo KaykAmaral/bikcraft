@@ -1,0 +1,58 @@
+.introducao-bg {
+    background: var(--c12);
+    color: var(--c0);
+    box-shadow: inset 0 -120px var(--c0); /* Isso Faz parecer que a Imagem está vazando do grid */
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+
+.introducao-conteudo {
+    align-self: flex-end;
+    padding-bottom: 250px; /*Antes era 80px e estou compensando os 120px do box-shadow (o efeito de vazamento da imagem do grid)*/
+}
+
+.introducao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+
+    .introducao-bg {
+        background: var(--c12);
+        padding-top: 40px;
+        box-shadow: inset 0 -60px var(--c0);
+    }
+ 
+    .introducao {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .introducao-conteudo {
+        padding-bottom: 0px;
+    }
+
+    .introducao h1 {
+        margin-bottom: 16px;
+    }
+
+    .introducao img {
+        height: 300px;
+        width: 100%;
+    };
+    
+}
